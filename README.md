@@ -1,17 +1,22 @@
-# Video-Downloader-com-Python
+# YouTube Downloader
 
-Este código é um script simples em Python que permite ao usuário baixar vídeos do YouTube em alta resolução. Ele usa a biblioteca `tkinter` para criar uma interface gráfica de usuário (GUI) e a biblioteca `pytube` para lidar com o download do vídeo.
+Este é um programa em Python que permite baixar vídeos do YouTube em formato MP4 ou extrair o áudio em MP3.
 
-## Funcionamento
+## Instalação
+Para executar o programa via código, você precisará instalar o pacote Pytube. Você pode fazer isso com o seguinte comando:
 
-Ao executar o script, uma janela com título "Baixe seus videos do YouTube!!!" é exibida. Nesta janela, o usuário deve inserir o link do vídeo do YouTube que deseja baixar e clicar no botão "Download" para iniciar o processo de download.
+## python
+pip install pytube
 
-Se o link inserido for válido, o script irá exibir uma janela com uma mensagem de confirmação de download bem-sucedido e o usuário poderá escolher o diretório onde deseja salvar o arquivo. Caso contrário, uma janela com uma mensagem de erro será exibida.
+## Como Usar
+Execute o arquivo "youtube_downloader.exe".
+Insira o link do vídeo do YouTube que você deseja baixar.
+Selecione o formato de saída desejado clicando no botão "MP4" ou "MP3".
+Selecione a pasta de destino para salvar o arquivo de saída.
+Clique no botão "Baixar" para iniciar o download.
 
-## Dependências
+## Contribua
+Este é um projeto simples e de código aberto, portanto, qualquer contribuição é bem-vinda! Se você quiser contribuir, sinta-se livre para enviar um pull request.
 
-O script requer a instalação das bibliotecas `tkinter` e `pytube`. A biblioteca `filedialog` também é importada do `tkinter`.
-
-## Execução
-
-O script pode ser executado a partir da linha de comando com o comando `python nome_do_script.py`. A janela da GUI será exibida e o usuário poderá começar a utilizar a aplicação.
+## Histórico de atualizações
+03/04/2023: Adicionada a funcionalidade de extrair o áudio em formato MP3.
